@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ILK HTML Sayfasi</title>
+		<style>
+		table{
+			width: 100%
+		}
+		td,th{
+			border: 1px solid gray;
+			text-align: left;
+			padding: 8px;
+		}
+		tr:nth-child(even){
+			background-color: gray;
+		}
+		.test{
+			background-color: black;
+			color: white;
+		}
+		.test2{
+			background-color: red;
+			color: white;
+		}
+		div{
+			background-color: pink;
+			color: white;
+
+		}
+		div.container{
+			width: 100%;
+		}
+		header,footer{
+			padding: 1em;
+			color: white;
+			background-color: black;
+			text-align: center;
+		}
+		nav{
+			float: left;
+			max-width: 150px;
+			margin: 0;
+			padding: 1em;
+		}
+		article{
+			margin-left: 170px;
+			padding: 1em;
+			border-left: 1px solid black;
+		}
+		</style>
+	</head>
+	<body>
+		<iframe src="https://youtu.be/embed/7yh6uGk?t=99"></iframe>
+		<br>
+		<form>
+			<fieldset>
+				<legend>Kişisel bilgiler</legend>
+				-isminiz:<br>
+				<input type="text" name="isim" value="Tufan"><BR>
+				-soyisminiz:<br>
+				<input type="text" name="soyisim" value="Kavak">
+				<br><br>
+				<textarea name="mesaj" id="" cols="30" rows="10">Lütfen mesajınızı yazınız...</textarea>
+				<br>
+				<select name="markalar" id="">
+					<option value="volvo">volvo</option>
+					<option value="toyota">toyota</option>
+					<option value="fiat">fiat</option>
+				</select>
+				<br>
+				<input list="ulkeler" name="ulkeler">
+				<datalist id="ulkeler">
+					<option value="turkey">turkey</option>
+					<option value="england">england</option>
+					<option value=macaristan>macaristan</option>
+
+				</datalist>	
+				<input type="submit" value="Gonder">
+			</fieldset>
+		</form>
+
+		<br>
+		<form> 
+			isim:
+			<input type="text" name="isim" value="" placeholder="isim">
+			<br>
+			soyisim:
+			<input type="text" name="soyisim" value="" placeholder="soyisim">
+			<button>Gönder</button>
+
+		</form>
+
+
+
+		<hr>
+		<div class="container">
+		<header>
+				<h1>bu bir başlıktır</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="#">İlk link</a></li>
+				<li><a href="#">İkinci link</a></li>
+				<li><a href="#">Üçüncü link</a></li>
+				<li><a href="#">Dördüncü link</a></li>
+			</ul>
+		</nav>
+		<article>
+			<h1>Makale</h1>
+			<p>Makale, herhangi bir konuda, bir görüşü, bir düşünceyi savunmak ve kanıtlamak için yazılan yazılara denir. Gazete ve dergilerde yayımlanır. Bir gerçeği açıklamak, bir konuda görüş ve düşünceler öne sürmek ya da bir tezi savunmak, desteklemek için yazılan yazılara da "makale" denir. Makaleler bir gerçeği kanıtlamak için yazılır. Makalelerde bilimsel verilerden yararlanılır.[1]</p>
+
+			<p>Akademik makaleler ise aynı zamanda bilimsel ve akademik boyuttaki dergilerde, bilimsel çalışmaların sonuçlarını içeren yazılar biçiminde de oluşturulabilmektedir. Bu konudaki dergiler ücretli ya da ücretsiz ve ulusal ya da uluslararası olabilmektedir. Hakemlik süreçleri kör hakemlik biçiminde birden fazla hakem ile yürütülebilmektedir</p>
+		</article>
+		<footer>Copright Since 2015</footer>
+		</div>
+
+
+		
+
+		<br>
+		<div class="test">
+		<h2>Test</h2>
+		<p>CV’sinin hobiler bölümüne ‘kitap okumak’ yazmanın bir özellik olduğunu düşünen insanların ülkesi burası. Pul biriktirmek, maket yapmak gibi bir şey... Alıyorsun eline bir kitabı 40-50 sayfa okuyorsun al sana mis gibi hobi!</p>
+		</div>
+		<div class="test2">
+		<h2>Test</h2>
+		<p>CV’sinin hobiler bölümüne ‘kitap okumak’ yazmanın bir özellik olduğunu düşünen insanların ülkesi burası. Pul biriktirmek, maket yapmak gibi bir şey... Alıyorsun eline bir kitabı 40-50 sayfa okuyorsun al sana mis gibi hobi!</p>
+		</div>
+		<div>
+		<h2>Test</h2>
+		<p>CV’sinin hobiler bölümüne ‘kitap okumak’ yazmanın bir özellik olduğunu düşünen insanların ülkesi burası. Pul biriktirmek, maket yapmak gibi bir şey... Alıyorsun eline bir kitabı 40-50 sayfa okuyorsun al sana mis gibi hobi!</p>
+		</div>
+
+
+
+
+
+		<hr>
+		<h2>Block Level Elements</h2>
+			<ol>
+				<li>div</li>
+				<li>h1,h2.....h6</li>
+				<li>p</li>
+				<li>form</li>
+			</ol>
+
+
+		<h2>inline elements</h2>
+			<ol>
+				<li>spam</li>
+				<li>a</li>
+				<li>img</li>
+			</ol>
+
+
+
+		<hr>
+		<h2>Listeler</h2>
+		<h4>Sıralanmamış Liste</h4>
+		<ul>
+			<li>kahve</li>
+			<li>çay</li>
+			<li>Su</li>
+		</ul>
+		<h4>Sıralanmış Liste</h4>
+		<ol>
+			<li>kahve</li>
+			<li>çay</li>
+			<li>Su</li>
+
+		</ol>
+
+
+
+
+		<h2>Tablolar</h2>
+			<table>
+				<tr>
+					<th>Adi</th>
+					<th>Soyadi</th>
+					<th>Okulu</th>
+				</tr>
+				<tr>
+					<td>Tufan</td>
+					<td>Kavak</td>
+					<td>Saray meslek yüksek okulu</td>
+				</tr>
+				<tr>
+					<td>Tufan</td>
+					<td>Kavak</td>
+					<td>Saray meslek yüksek okulu</td>
+				</tr>
+
+
+			</table>
+
+
+		<h2>Alitilar</h2>
+		<p>Lorem ipsum dolor sit amet, mei at tractatos forensibus. Vix decore soleat reprehendunt atcu mentitum temporibus est. Laudem postulant in nam, latine</p>
+		<p>lorem ipsum <abbr title> dolar </abbr> </p> 
+		<h2>Formating Elements</h2> <br>
+			<b>Bold Text</b> <br>
+			<strong>Importent text</strong> <br>
+			<i>italic text</i> <br>
+			<em>Emphasized Text</em> <br>
+			<mark>marked text </mark> <br>
+			<small>Small text</small> <br>
+			<del>deleted text</del> <br>
+			<ins>inserted text</ins> <br>
+			<sub>subscript text</sub> <br>
+			<sup>superscript text</sup> <br>
+			<hr>
+
+			<h1>Ilk Baslik</h1>
+			<h6>Son Baslik</h6>
+			<p>Ilk Paragraf</p>
+			<a href="https://www.youtube.com/">youtube</a>
+			<br>
+			<img src="https://cdn.pixabay.com/photo/2021/12/23/16/38/animal-6889575_960_720.jpg">
+
+						
+
+	</body>
+</html>
